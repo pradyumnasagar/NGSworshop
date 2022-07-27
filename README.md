@@ -1,2 +1,2 @@
-# NGSworshop
+# NGSworkshop
 test repo
