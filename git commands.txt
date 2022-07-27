@@ -1,0 +1,30 @@
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzI1YzRkNDktZWNjNS00OGZlLTg0Y2EtOTljMzNmNDlmNjM4%40thread.v2/0?context=%7b%22Tid%22%3a%2229bebd42-f1ff-4c3d-9688-067e3460dc1f%22%2c%22Oid%22%3a%2222425aab-be4d-4777-bf28-0f1e2a7ffc8e%22%7d
+git config --global user.name <yourname>
+git config --gloabl user.email <yoursignedemail>
+git log
+git clone
+git add
+-- git add <filename>
+git status
+git commit 
+--git commit -m <msg>
+git status 
+git push
+git pull
+git commit -am "MSG"
+git push
+git reset --hard <commit hash>
+git reset --hard origin/master
+git branch
+git checkout -b "newbranch"
+git branch
+git commit -am "added a new feature"
+git checkout master 
+git remote set-url origin https://mohujs@github.com/mohujs/demomlsc.git
+
+git remote -v 
+git pull origin master
+Or you could set it up so that your local master branch tracks github master branch as an upstream:
+
+git branch --set-upstream-to=origin/master master
+git pull
